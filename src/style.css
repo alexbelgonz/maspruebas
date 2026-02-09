@@ -1,0 +1,47 @@
+body{
+  margin:0;
+  font-family:system-ui;
+  background: radial-gradient(circle at top,#111,#000);
+  color:white;
+}
+.container{
+  max-width:1000px;
+  margin:auto;
+  padding:40px 20px;
+  text-align:center;
+}
+nav{margin:25px 0;}
+button{
+  margin:5px;
+  padding:8px 12px;
+  background:transparent;
+  border:1px solid gold;
+  color:gold;
+  cursor:pointer;
+}
+button:hover{background:gold;color:black;}
+.countdown{
+  display:flex;
+  justify-content:center;
+  gap:20px;
+  font-size:2rem;
+}
+.countdown span{color:white;font-weight:bold;display:block;}
+.gallery{
+  display:flex;
+  gap:15px;
+  justify-content:center;
+  flex-wrap:wrap;
+}
+.gallery img{
+  width:200px;
+  border:2px solid gold;
+}
+blockquote{
+  border-left:3px solid gold;
+  margin:20px auto;
+  padding-left:10px;
+  max-width:600px;
+  font-style:italic;
+}
+blockquote span{display:block;margin-top:8px;color:gold;font-style:normal;}
