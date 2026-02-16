@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Highlights 2025</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <a href="index.html">INICIO</a>
+  <a href="highlights-2024.html">HIGHLIGHTS 2024</a>
+  <a href="highlights-2025.html">HIGHLIGHTS 2025</a>
+  <a href="resenas.html">RESEÑAS</a>
+  <a href="calendario-2026.html">CALENDARIO 2026</a>
+</nav>
+
+<div class="section">
+  <div class="title">HIGHLIGHTS 2025</div>
+  <div class="subtitle">LA CONSOLIDACIÓN</div>
+
+  <div id="gallery2025" class="gallery-grid"></div>
+</div>
+
+<div id="modal" class="modal" onclick="closeModal()">
+  <img id="modal-img">
+</div>
+
+<script src="script.js"></script>
+<script>
+const images2025 = [
+  // Añade aquí los nombres de tus fotos
+];
+
+buildGallery("gallery2025", "highlights-2025/photos/", images2025);
+</script>
+</body>
+</html>
